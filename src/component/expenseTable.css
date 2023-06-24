@@ -1,0 +1,7 @@
+.expenseTable_container {
+    min-height: 90vh;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}

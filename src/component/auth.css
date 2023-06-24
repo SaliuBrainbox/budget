@@ -1,0 +1,30 @@
+.auth_container {
+    margin-top: 100px;
+    width: 600px;
+    border: 2px solid black;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.auth_input {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+@media screen and (max-width: 900px) {
+    .auth_container {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .auth_container {
+        width: 260px;
+    }
+    h3 {
+        display: none;
+    }
+}

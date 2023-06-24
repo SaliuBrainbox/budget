@@ -1,0 +1,25 @@
+.fresh {
+    height: 100vh;
+    background: white;
+    margin-left: 15px;
+    position: relative;
+}
+
+.fresh_intro {
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 10%;
+    right: 15%;
+}
+
+.fresh_image img {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 1020px) {
+    h1 {
+        font-size: 20px;
+    }
+}

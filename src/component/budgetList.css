@@ -1,0 +1,11 @@
+.budgetList_container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+.budgetList_item {
+    margin: 20px;
+}

@@ -1,0 +1,24 @@
+.outlet_container {
+    background: url(../images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.empty {
+    height: 70px;
+}
+
+.side {
+    height: 60px;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+}
