@@ -11,6 +11,7 @@ import { fetchData } from '../helper/helper';
 import { logOut } from '../firebase/firebase';
 import { setCurrent } from '../redux_store/user/userAction';
 import { person, user, id } from '../redux_store/user/userSelector';
+import MenuIcon from '@mui/icons-material/Menu';
 
 
 
@@ -76,6 +77,7 @@ const Layout = () => {
               <AppBar>
               <div className='toolbar' >
                     <Toolbar>
+                      <MenuIcon onClick={() => setIsOpen(true)}></MenuIcon>
                       <Typography>welcome {name} </Typography>
                     </Toolbar>
                     <Toolbar>
